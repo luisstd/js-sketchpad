@@ -1,13 +1,12 @@
+// dom variables
 const container = document.getElementById("container");
-const cell = (function createCell() {
-  let squareCell = document.createElement("div");
-  container.appendChild(squareCell);
-})();
+const button = document.querySelector(".button");
 
+// creating the grid
 function createGrid() {
   for (let i = 0; i < 16; i++) {
-    container.cloneNode(cell);
+   let cell = document.createElement("div");
+   container.appendChild(cell);
   }
 }
-
 createGrid();
