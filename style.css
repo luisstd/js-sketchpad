@@ -33,6 +33,7 @@
   height: 5rem;
   font-size: 3rem;
   margin-top: 3rem;
+  margin-bottom: -2.5rem;
   background-color: #424bdf;
   color: #ffc0cb;
   border: none;
@@ -49,11 +50,7 @@
   transition: all 0.3s;
 }
 .cell {
-  /* position: relative;
-  left: 50%;
-  transform: translateX(-50%); */
-
   width: 1fr;
   height: 1fr;
-  border: 0.1rem solid black;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
